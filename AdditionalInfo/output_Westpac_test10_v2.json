@@ -1,0 +1,385 @@
+{
+  "bank": "Westpac",
+  "products": [
+    {
+      "product_id": "PLUnsecured",
+      "product_name": "Unsecured Personal Loan",
+      "extracted_fees": [
+        {
+          "name": "Loan Account Fee"
+        },
+        {
+          "name": "Lending Establishment Fee"
+        },
+        {
+          "name": "Prepayment Fee"
+        },
+        {
+          "name": "Missed Payment Fee"
+        },
+        {
+          "name": "Bank Cheque Fee"
+        }
+      ]
+    },
+    {
+      "product_id": "PLCar",
+      "product_name": "Car Loan",
+      "extracted_fees": [
+        {
+          "name": "Loan Account Fee"
+        },
+        {
+          "name": "Lending Establishment Fee"
+        },
+        {
+          "name": "Prepayment Fee"
+        },
+        {
+          "name": "Missed Payment Fee"
+        },
+        {
+          "name": "Bank Cheque Fee"
+        }
+      ]
+    },
+    {
+      "product_id": "HLVariableFlexiOwnerOccupied",
+      "product_name": "Flexi First : Our lowest online variable home loan rate (Owner Occupied)",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee"
+        },
+        {
+          "name": "Bank Cheque Issuance Fee"
+        },
+        {
+          "name": "Loan Account Fee"
+        },
+        {
+          "name": "Missed Payment Fee"
+        },
+        {
+          "name": "Document Processing Fee"
+        },
+        {
+          "name": "Default Notice Fee"
+        },
+        {
+          "name": "Account Overdrawn Fee"
+        },
+        {
+          "name": "Loan Discharge Fee"
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium"
+        },
+        {
+          "name": "Property Valuer Fee"
+        },
+        {
+          "name": "Extra repayments"
+        },
+        {
+          "name": "Redraw "
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments "
+        },
+        {
+          "name": "Construction loan option"
+        },
+        {
+          "name": "Portability option"
+        },
+        {
+          "name": "Loan switching"
+        }
+      ]
+    },
+    {
+      "product_id": "UnsecuredBusinessOverdraft",
+      "product_name": "Unsecured Business Overdraft",
+      "extracted_fees": [
+        {
+          "name": "Monthly Line Fee"
+        },
+        {
+          "name": "Lending Establishment Fee"
+        }
+      ]
+    },
+    {
+      "product_id": "UnsecuredBusinessLoan",
+      "product_name": "Unsecured Business Loan",
+      "extracted_fees": [
+        {
+          "name": "Establishment Fee"
+        },
+        {
+          "name": "Monthly Line Fee"
+        },
+        {
+          "name": "Monthly Fee"
+        }
+      ]
+    },
+    {
+      "product_id": "SavBump",
+      "product_name": "Bump Savings",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee"
+        },
+        {
+          "name": "Online Banking (including Mobile Banking)"
+        },
+        {
+          "name": "Telephone Banking withdrawal (self service)"
+        },
+        {
+          "name": "Telephone Banking withdrawal (staff assisted)"
+        },
+        {
+          "name": "Branch staff assisted withdrawal"
+        }
+      ]
+    },
+    {
+      "product_id": "HLVariableFlexiInvestment",
+      "product_name": "Flexi First : Our lowest online variable home loan rate (Investor)",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee"
+        },
+        {
+          "name": "Bank Cheque Issuance Fee"
+        },
+        {
+          "name": "Loan Account Fee"
+        },
+        {
+          "name": "Missed Payment Fee"
+        },
+        {
+          "name": "Document Processing Fee"
+        },
+        {
+          "name": "Default Notice Fee"
+        },
+        {
+          "name": "Account Overdrawn Fee"
+        },
+        {
+          "name": "Loan Discharge Fee"
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium"
+        },
+        {
+          "name": "Property Valuer Fee"
+        },
+        {
+          "name": "Extra repayments"
+        },
+        {
+          "name": "Redraw "
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments "
+        },
+        {
+          "name": "Construction loan option"
+        },
+        {
+          "name": "Portability option"
+        },
+        {
+          "name": "Loan switching"
+        }
+      ]
+    },
+    {
+      "product_id": "HLFixed",
+      "product_name": "Fixed Rate Home Loan",
+      "extracted_fees": [
+        {
+          "name": "Annual Package Fee"
+        },
+        {
+          "name": "Lending Establishment Fee"
+        },
+        {
+          "name": "Loan Account Fee"
+        },
+        {
+          "name": "Fixed Rate - Lock-In Fee"
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium"
+        },
+        {
+          "name": "Bank Cheque Issuance Fee"
+        },
+        {
+          "name": "Break Cost Fee"
+        },
+        {
+          "name": "Missed Payment Fee"
+        },
+        {
+          "name": "Account Overdrawn Fee"
+        },
+        {
+          "name": "Document Processing Fee"
+        },
+        {
+          "name": "Property Valuer Fee"
+        },
+        {
+          "name": "Loan Discharge Fee"
+        },
+        {
+          "name": "Extra repayments"
+        },
+        {
+          "name": "Redraw "
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments "
+        },
+        {
+          "name": "Construction loan option"
+        },
+        {
+          "name": "Portability option"
+        },
+        {
+          "name": "Loan switching"
+        },
+        {
+          "name": "Default Notice Fee"
+        },
+        {
+          "name": "Split Loan Fee"
+        }
+      ]
+    },
+    {
+      "product_id": "TrChoiceMigrant",
+      "product_name": "Westpac Choice for migrants",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee"
+        },
+        {
+          "name": "Online Banking"
+        },
+        {
+          "name": "Westpac Group Branded ATM - Withdrawal"
+        },
+        {
+          "name": "Westpac Group Branded ATM - Balance Inquiry"
+        },
+        {
+          "name": "Point of Sale (POS) transactions"
+        },
+        {
+          "name": "Telephone Banking (automated)"
+        },
+        {
+          "name": "Telephone Banking (staff assisted)"
+        },
+        {
+          "name": "Cheque Withdrawals"
+        },
+        {
+          "name": "Direct Debit"
+        },
+        {
+          "name": "PayTo payment"
+        },
+        {
+          "name": "Branch staff assisted withdrawal"
+        },
+        {
+          "name": "Periodical Payments"
+        },
+        {
+          "name": "Overseas Withdrawal"
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)"
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)"
+        },
+        {
+          "name": "Overdrawn Fee"
+        }
+      ]
+    },
+    {
+      "product_id": "TrChoice",
+      "product_name": "Westpac Choice",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee"
+        },
+        {
+          "name": "Online Banking"
+        },
+        {
+          "name": "Westpac Group Branded ATM - Withdrawal"
+        },
+        {
+          "name": "Westpac Group Branded ATM - Balance Inquiry"
+        },
+        {
+          "name": "Point of Sale (POS) transactions"
+        },
+        {
+          "name": "Telephone Banking (automated)"
+        },
+        {
+          "name": "Telephone Banking (staff assisted)"
+        },
+        {
+          "name": "Cheque Withdrawals"
+        },
+        {
+          "name": "Direct Debit"
+        },
+        {
+          "name": "PayTo payment"
+        },
+        {
+          "name": "Branch staff assisted withdrawal"
+        },
+        {
+          "name": "Periodical Payments"
+        },
+        {
+          "name": "Overseas Withdrawal"
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)"
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)"
+        },
+        {
+          "name": "Overdrawn Fee"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_products": 10,
+    "products_with_fees": 10,
+    "total_fees_processed": 104,
+    "total_fees_with_additional_info": 60,
+    "total_fees_using_name_only": 44,
+    "duplicate_fees_skipped_within_product": 0
+  }
+}

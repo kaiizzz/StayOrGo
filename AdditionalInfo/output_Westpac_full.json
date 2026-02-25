@@ -1,0 +1,4543 @@
+{
+  "bank": "Westpac",
+  "products": [
+    {
+      "product_id": "PLUnsecured",
+      "product_name": "Unsecured Personal Loan",
+      "extracted_fees": [
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Prepayment Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EXIT because it \"Applies if you choose a term greater than 2 years and pay it out in less than 2 years\" (i.e., paying out/early exit). No fee name or amount/method is explicitly stated; only that \"This fee is waived if you pay out your personal loan by refinancing to another Westpac personal loan\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Bank Cheque Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "PLCar",
+      "product_name": "Car Loan",
+      "extracted_fees": [
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Prepayment Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EXIT because it \"Applies if you choose a term greater than 2 years and pay it out in less than 2 years\" and references \"pay it out\"; waiver condition: \"This fee is waived if you pay out your personal loan by refinancing to another Westpac personal loan\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Bank Cheque Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLVariableFlexiOwnerOccupied",
+      "product_name": "Flexi First : Our lowest online variable home loan rate (Owner Occupied)",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Fee amount is stated as \"$10 per cheque\" and condition noted as \"(1st cheque is free)\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "BALANCE",
+            "rate": "NF"
+          },
+          "explanation": "Fee described as \"Lenders Mortgage Insurance\" where \"the cost of Lenders Mortgage Insurance is calculated as a percentage of the loan amount\" and \"The percentage applied will vary\"; it is \"passed on to you\"."
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Property Valuer Fee\"."
+        },
+        {
+          "name": "Extra repayments",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicit information provided is: \"Extra repayments (up to $30k on fixed loans)\"; no fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Redraw ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Construction loan option",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"property valuer fees may apply\" under \"Construction loan option\"; no amount or calculation method is stated."
+        },
+        {
+          "name": "Portability option",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info mentions \"Portability option (keeping your loan but changing the property securing the loan)\" but does not state any fee amount, rate, or range."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Fee/event described as \"Loan switching (changing loan or repayment type)\"."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Break costs may apply to a fixed rate loan\"."
+        }
+      ]
+    },
+    {
+      "product_id": "UnsecuredBusinessOverdraft",
+      "product_name": "Unsecured Business Overdraft",
+      "extracted_fees": [
+        {
+          "name": "Monthly Line Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "BALANCE",
+            "rate": "0.015",
+            "accrualFrequency": "NF"
+          },
+          "explanation": "Fee name and rate are stated as: \"Monthly Line Fee: 1.50% p.a. (of total limit)\" and it is periodic because it is \"charged at the beginning of the month\"."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "UnsecuredBusinessLoan",
+      "product_name": "Unsecured Business Loan",
+      "extracted_fees": [
+        {
+          "name": "Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Establishment Fee\"."
+        },
+        {
+          "name": "Monthly Line Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PERIODIC because Additional Info states: \"Monthly Line Fee\". No fee calculation method or amount is stated beyond the name \"Monthly Line Fee\"."
+        },
+        {
+          "name": "Monthly Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and periodic nature taken from: \"Monthly Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "SavBump",
+      "product_name": "Bump Savings",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking (including Mobile Banking)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"withdrawals\". No fee amount/rate is stated in: \"Online transfer withdrawals via Online Banking.\""
+        },
+        {
+          "name": "Telephone Banking withdrawal (self service)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"withdrawal\". No fee amount/rate is stated in: \"Telephone Banking withdrawal (self service)\"."
+        },
+        {
+          "name": "Telephone Banking withdrawal (staff assisted)",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "The only fee-related information explicitly stated is: \"Shown as $0.00 on your account statement\", indicating a fixed amount of 0.00."
+        }
+      ]
+    },
+    {
+      "product_id": "HLVariableFlexiInvestment",
+      "product_name": "Flexi First : Our lowest online variable home loan rate (Investor)",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Fee is stated as \"$10 per cheque\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\". No amount or calculation method is provided."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Additional Info states \"Lenders Mortgage Insurance is usually required\" when \"deposit is less than 20%\" and that \"The cost of Lenders Mortgage Insurance is calculated as a percentage of the loan amount\" and \"The percentage applied will vary\"."
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Property Valuer Fee\"."
+        },
+        {
+          "name": "Extra repayments",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info mentions \"Extra repayments (up to $30k on fixed loans)\" but does not state any fee amount, rate, or that a fee is charged."
+        },
+        {
+          "name": "Redraw ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Construction loan option",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"property valuer fees may apply\"."
+        },
+        {
+          "name": "Portability option",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Portability option (keeping your loan but changing the property securing the loan)\"."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and context taken from: \"Loan switching (changing loan or repayment type)\"."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and condition taken from: \"Break costs may apply to a fixed rate loan\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLFixed",
+      "product_name": "Fixed Rate Home Loan",
+      "extracted_fees": [
+        {
+          "name": "Annual Package Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicit statement is: \"For customers opting for Premier Advantage Package\". No fee amount, rate, or method is stated."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Fixed Rate - Lock-In Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.10"
+          },
+          "explanation": "Fee identified from \"Rate lock\" with amounts stated as \"0.10% of loan amount for new lending\" and \"0.10% for refixes\"."
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee identified as \"Lenders Mortgage Insurance\". Cost basis: \"calculated as a percentage of the loan amount\" and \"The percentage applied will vary\". Charged to customer: \"premium is passed on to you\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Additional Info states: \"$10 per cheque (1st cheque is free)\"."
+        },
+        {
+          "name": "Break Cost Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Break Cost Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\". No amount, rate, or range is provided."
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Property Valuer Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Extra repayments",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Redraw ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"If activated and extra funds are available\". No fee name, type, or method is explicitly stated."
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Construction loan option",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"property valuer fees may apply\"."
+        },
+        {
+          "name": "Portability option",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "The only information provided is \"Portability option (keeping your loan but changing the property securing the loan)\" and no fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Fee/event described as \"Loan switching (changing loan or repayment type)\"."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Break costs may apply to a fixed rate loan\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name in Additional Info is \"Default Notice Fee\"."
+        },
+        {
+          "name": "Split Loan Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Split Loan Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "TrChoiceMigrant",
+      "product_name": "Westpac Choice for migrants",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Online transfer withdrawals via Online Banking\". No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Any withdrawal made at a Westpac/St.George/Bank of Melbourne/BankSA branded ATM\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Balance Inquiry",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee relates to an enquiry because it states: \"Any balance Inquiry made at a Westpac/St.George/Bank of Melbourne/BankSA branded ATM\". No fee amount or calculation method is stated."
+        },
+        {
+          "name": "Point of Sale (POS) transactions",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"All transactions conducted at a POS terminal.\" No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Telephone Banking (automated)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"transfer withdrawals\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Telephone Banking (staff assisted)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states \"transfer withdrawal\" and it is \"assisted by a staff member over the telephone\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Cheque Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Withdrawals or payments made by cheque\". No fee amount/rate is stated. Additional context included: \"Excludes cashing of a cheque.\""
+        },
+        {
+          "name": "Direct Debit",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as TRANSACTION because Additional Info describes \"A transfer of funds from your account\" under a \"Direct Debit request\". No fee amount/rate is stated."
+        },
+        {
+          "name": "PayTo payment",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PAYMENT because Additional Info describes \"A transfer of funds from your account\" under a \"Payment Agreement\" with a \"merchant or Payment Initiator\", but no fee amount/rate is stated."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Includes any withdrawals conducted at a Westpac branch, including cashing of Westpac cheques.\" No fee amount or rate is stated."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Additional fees apply for Periodical Payments made by Bank Cheque\". No amount or calculation method is provided."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Additional fees apply for ... International Periodical Payments\". No amount or calculation method is provided."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "Applies to \"cash withdrawal made at an overseas ATM\" and \"This fee is nil for cash withdrawals from Global ATM Alliance and Westpac Group partner ATMs\"."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "\"Some overseas banks may also apply a surcharge to cash withdrawals from their ATMs\" and \"This surcharge amount will be added to your withdrawal amount, converted to Australian dollars and debited to your account\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and described as part of \"3% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Stated as \"1% Westpac On-Charged Scheme Fee\" and described as part of \"3% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as \"0.2% Westpac On-Charged Scheme Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Overdrawn Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "TrChoice",
+      "product_name": "Westpac Choice",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info only states \"Online transfer withdrawals via Online Banking\" and does not state any fee amount or rate."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because it states: \"Any withdrawal made at a ... branded ATM\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Balance Inquiry",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Any balance Inquiry made at a Westpac/St.George/Bank of Melbourne/BankSA branded ATM\" (fee amount/method not stated)."
+        },
+        {
+          "name": "Point of Sale (POS) transactions",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Telephone Banking (automated)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"transfer withdrawals\". No fee amount/rate is stated in: \"Automated Telephone Banking transfer withdrawals\"."
+        },
+        {
+          "name": "Telephone Banking (staff assisted)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info says \"transfer withdrawal\". Fee method not stated; only \"assisted by a staff member over the telephone\" is provided."
+        },
+        {
+          "name": "Cheque Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee context is explicitly described as \"Withdrawals or payments made by cheque.\" No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Direct Debit",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as TRANSACTION based on: \"A transfer of funds from your account\". No fee amount/rate is stated in: \"A transfer of funds from your account drawn under a Direct Debit request you gave another person or company.\""
+        },
+        {
+          "name": "PayTo payment",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Only a transaction description is provided: \"A transfer of funds from your account in accordance with a Payment Agreement\". No fee name or fee method/amount is stated."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Includes any withdrawals conducted at a Westpac branch\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states: \"Additional fees apply for Periodical Payments made by Bank Cheque\" but does not state an amount or calculation method."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states: \"Additional fees apply for ... International Periodical Payments\" but does not state an amount or calculation method."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Mentions \"Some overseas banks may also apply a surcharge to cash withdrawals from their ATMs\" and that \"This surcharge amount will be added to your withdrawal amount\" but does not state a specific amount or rate."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "States \"This fee is nil for cash withdrawals from Global ATM Alliance and Westpac Group partner ATMs.\""
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and it is \"of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Stated as \"1% Westpac On-Charged Scheme Fee\" and it is \"of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.022"
+          },
+          "explanation": "Classified as TRANSACTION because it applies to \"the $AUD transaction amount\" when \"a transaction is made in foreign currency\". Rate-based because it is \"2.2% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Overdrawn Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "PLFlexi",
+      "product_name": "Flexi Loan",
+      "extracted_fees": [
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name appears as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Prepayment Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Prepayment Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Bank Cheque Fee\"."
+        },
+        {
+          "name": "Redraw Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Redraw Fee\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Overlimit Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLSustainableUpgradesInvestment",
+      "product_name": "Sustainable Upgrades Investment Loan",
+      "extracted_fees": [
+        {
+          "name": "Monthly Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and periodic nature are explicitly stated as: \"Monthly Account Fee\"."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Additional Info states: \"$10 per cheque (1st cheque is free)\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Discharge Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLPremiumOptionHomeloan",
+      "product_name": "Premium Options Home Loan",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Fee amount and basis are stated as: \"$10 per cheque (1st cheque is free)\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Account Overdrawn Fee\". No amount, rate, or calculation method is provided."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Annual Package Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info mentions: \"For customer opting for Premier Advantage Package\"."
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee is described as \"Lenders Mortgage Insurance\" that is \"usually required\" when \"deposit is less than 20%\" and whose \"cost ... is calculated as a percentage of the loan amount\"; \"The percentage applied will vary\" and the \"premium is passed on to you\"."
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee is explicitly stated as \"Property Valuer Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLSustainableUpgradesOwnersOccupied",
+      "product_name": "Sustainable Upgrades Home Loan",
+      "extracted_fees": [
+        {
+          "name": "Monthly Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and periodic nature are explicitly stated as: \"Monthly Account Fee\"."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Fee amount is stated as \"$10 per cheque\" and condition noted: \"(1st cheque is free)\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Discharge Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLBridgingOption",
+      "product_name": "Bridging Home Loan",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Fee is stated as \"$10 per cheque (1st cheque is free)\", indicating a fixed amount of \"$10\" charged \"per cheque\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Overdrawn Fee\". No amount, rate, or calculation method is provided in the Additional Info."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Property Valuer Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLVariableOffsetInvestment",
+      "product_name": "Rocket Loan : Variable Home Loan with Offset (Investor)",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Additional Info states: \"$10 per cheque (1st cheque is free)\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name appears as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Stop Payment Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Stop Payment Fee\"."
+        },
+        {
+          "name": "Annual Package Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "BALANCE",
+            "rate": "NF"
+          },
+          "explanation": "Fee identified as \"Lenders Mortgage Insurance\". It is \"calculated as a percentage of the loan amount\" and \"The percentage applied will vary\"; no specific percentage is stated. It is a cost \"passed on to you\"."
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Property Valuer Fee\"."
+        },
+        {
+          "name": "Extra repayments",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info only states: \"Extra repayments (up to $30k on fixed loans)\" and does not explicitly state any fee or fee amount/method."
+        },
+        {
+          "name": "Redraw ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"If activated and extra funds are available\" and does not explicitly state any fee name, fee type, or fee amount/rate."
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Construction loan option",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states \"property valuer fees may apply\"."
+        },
+        {
+          "name": "Portability option",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as VARIATION because Additional Info describes \"keeping your loan but changing the property securing the loan\" and does not state any fee amount or method."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"Loan switching (changing loan or repayment type)\"."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"Break costs may apply to a fixed rate loan\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLVariableInvestment",
+      "product_name": "Variable Rate Investment Property Loan",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Additional Info states: \"$10 per cheque (1st cheque is free)\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name appears as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Annual Package Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"For customer opting for Premier Advantage Package\" and does not explicitly state any fee or amount."
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Additional Info states \"Lenders Mortgage Insurance is usually required\" when \"deposit is less than 20%\" and that \"The cost of Lenders Mortgage Insurance is calculated as a percentage of the loan amount\" and \"passed on to you\"; however \"The percentage applied will vary\" and no specific percentage is provided."
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Property Valuer Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLDefenceService",
+      "product_name": "Flexi First Option Home Loan - Veterans",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Account Overdrawn Fee\". No amount or calculation method is provided."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Discharge Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLVariableOffsetOwnerOccupied",
+      "product_name": "Rocket Loan : Variable Home Loan with Offset (Owner Occupied)",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Fee amount is stated as \"$10 per cheque\" and condition \"(1st cheque is free)\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name appears as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Stop Payment Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Stop Payment Fee\"."
+        },
+        {
+          "name": "Annual Package Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "BALANCE",
+            "rate": "NF"
+          },
+          "explanation": "States \"Lenders Mortgage Insurance is usually required\" when \"deposit is less than 20%\" and that \"The cost of Lenders Mortgage Insurance is calculated as a percentage of the loan amount\" and \"The percentage applied will vary\"."
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee identified from Additional Info: \"Property Valuer Fee\". No amount or calculation method is stated."
+        },
+        {
+          "name": "Extra repayments",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as VARIATION because Additional Info refers to changing repayments: \"Extra repayments (up to $30k on fixed loans)\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Redraw ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Construction loan option",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"property valuer fees may apply\" under \"Construction loan option\"."
+        },
+        {
+          "name": "Portability option",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as VARIATION because it is an option for \"keeping your loan but changing the property securing the loan\". No fee amount or method is stated."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Fee/event described as \"Loan switching (changing loan or repayment type)\"."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "States \"Break costs may apply to a fixed rate loan\"."
+        }
+      ]
+    },
+    {
+      "product_id": "SavESaver",
+      "product_name": "Westpac eSaver",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking (including Mobile Banking)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"withdrawals\". No fee amount/rate/method is stated beyond the withdrawal context: \"Online transfer withdrawals via Online Banking.\""
+        },
+        {
+          "name": "Telephone Banking withdrawal (self service)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states \"withdrawal\". No fee amount or rate is stated in \"Telephone Banking withdrawal (self service)\"."
+        },
+        {
+          "name": "Telephone Banking withdrawal (staff assisted)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states \"withdrawal\". No fee amount or rate is stated in \"Telephone Banking withdrawal (staff assisted)\"."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Branch staff assisted withdrawal\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee amount and basis are stated as \"$15.00 per item\" and an exception is stated as \"nil for Westpac Choice Concession account holders.\""
+        },
+        {
+          "name": "Direct Debit",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Direct Debit\"."
+        }
+      ]
+    },
+    {
+      "product_id": "TrChoiceStudent",
+      "product_name": "Bank account with debit card for Students and young adults ",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated in Additional Info: \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicitly stated information is: \"Online transfer withdrawals via Online Banking\". No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because it states: \"Any withdrawal made at a Westpac/St.George/Bank of Melbourne/BankSA branded ATM\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Balance Inquiry",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as ENQUIRY because Additional Info states: \"Any balance Inquiry made at a Westpac/St.George/Bank of Melbourne/BankSA branded ATM\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Point of Sale (POS) transactions",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicit information provided is: \"All transactions conducted at a POS terminal.\" No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Telephone Banking (automated)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Automated Telephone Banking transfer withdrawals\"."
+        },
+        {
+          "name": "Telephone Banking (staff assisted)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states \"transfer withdrawal\". No fee amount/rate is stated in \"A Telephone Banking transfer withdrawal assisted by a staff member over the telephone\"."
+        },
+        {
+          "name": "Cheque Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Withdrawals or payments made by cheque.\" No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Direct Debit",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as TRANSACTION because it describes \"A transfer of funds from your account\". No fee amount/rate is stated."
+        },
+        {
+          "name": "PayTo payment",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info describes \"A transfer of funds from your account\" under a \"Payment Agreement\" with a \"merchant or Payment Initiator\" but does not state any fee amount, rate, or range."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info mentions \"withdrawals conducted at a Westpac branch\" and \"cashing of Westpac cheques\" but does not state any fee amount or rate."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The text states \"Additional fees apply for Periodical Payments made by Bank Cheque and International Periodical Payments\" but does not state any amount or calculation method."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Mentions \"Some overseas banks may also apply a surcharge to cash withdrawals from their ATMs\" and that \"This surcharge amount will be added to your withdrawal amount\" but no explicit amount/rate is stated."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "States \"This fee is nil for cash withdrawals from Global ATM Alliance and Westpac Group partner ATMs.\""
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "currency": "AUD",
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and described as part of \"3% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "currency": "AUD",
+          "explanation": "Stated as \"1% Westpac On-Charged Scheme Fee\" and described as part of \"3% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to the \"transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as \"0.2% Westpac On-Charged Scheme Fee\" and applies to the \"transaction amount\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Overdrawn Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "WestpacCommercialLoan",
+      "product_name": "Commercial Loan",
+      "extracted_fees": [
+        {
+          "name": "Loan Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as UPFRONT because it is \"Charged to cover the costs of originating\" and is \"payable by you on or before the settlement date.\" No fee calculation method or amount is stated."
+        },
+        {
+          "name": "Asset Inspection Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Asset Inspection Fee\"."
+        },
+        {
+          "name": "Legal Fees for Complex Documentation",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"this fee\" in: \"we will advise you of this fee before proceeding\" and timing: \"payable on or before the settlement date\"."
+        },
+        {
+          "name": "Early Termination",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EXIT because Additional Info says: \"terminate your Goods Loan early.\" No fee name or amount/rate is stated."
+        },
+        {
+          "name": "Break Costs",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info says \"Break costs are not a fixed amount\" and \"are determined by a number of factors specific to your product.\""
+        },
+        {
+          "name": "Overdue Rate",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as LATE_PAYMENT because it \"applies on overdue amount from the time it is due until it is paid\". No fee calculation method or amount/rate is explicitly stated."
+        },
+        {
+          "name": "Personal Property Security Fees",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Personal Property Security Fees apply when search and registration fees are applicable\" and \"Where charged individually, these will be itemised\"; no amount or method provided."
+        },
+        {
+          "name": "Aircraft - International Registration",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies for each registration of Security on the International Register\". Fee method/amount not explicitly stated; only that \"The AUD amount will be quoted to you as part of the settlement documentation\"."
+        },
+        {
+          "name": "Aircraft - International Deregistration",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies each time we are required to remove a security registration from the International Register\". Fee method/amount not explicitly stated: \"The AUD amount will be quoted to you before being charged.\""
+        },
+        {
+          "name": "Aircraft - CASA Transfer of Ownership",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee is described as applying \"each time there is/will be a transfer of ownership with the Civil Aviation Safety Authority (CASA)\" and is \"payable by you on or before the date of transfer\"; no amount or calculation method is stated."
+        },
+        {
+          "name": "Aircraft - RAA Transfer of Ownership",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states it \"Applies for each registration of a marine vessel with the Australian Maritime Safety Authority\" and is \"payable by you on or before the settlement date\"."
+        },
+        {
+          "name": "Marine - Vessel Registration less than 24metres",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states it \"Applies for each registration of a marine vessel with the Australian Maritime Safety Authority\" and is \"payable by you on or before the settlement date\"."
+        }
+      ]
+    },
+    {
+      "product_id": "WestpacCommercialHirePurchase",
+      "product_name": "Commercial Hire Purchase",
+      "extracted_fees": [
+        {
+          "name": "Loan Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as UPFRONT because it is \"payable by you on or before the settlement date\" and is \"Charged to cover the costs of originating\" the loan/lease. No amount or calculation method is stated."
+        },
+        {
+          "name": "Asset Inspection Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated in Additional Info: \"Asset Inspection Fee\"."
+        },
+        {
+          "name": "Legal Fees for Complex Documentation",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"this fee\" when \"require External Lawyers to document some or all of your contract documentation\" and it is \"payable on or before the settlement date\"."
+        },
+        {
+          "name": "Early Termination",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EXIT because Additional Info says: \"terminate your Lease or Hire Purchase early.\" No fee method or amount is stated."
+        },
+        {
+          "name": "Break Costs",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Break costs are not a fixed amount\" and \"are determined by a number of factors specific to your product.\""
+        },
+        {
+          "name": "Overdue Rate",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as LATE_PAYMENT because it \"applies on overdue amount from the time it is due until it is paid.\" No fee calculation method or amount/rate is explicitly stated."
+        },
+        {
+          "name": "Personal Property Security Fees",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Personal Property Security Fees apply when search and registration fees are applicable\" and \"Where charged individually, these will be itemised\"; no amount or calculation method is provided."
+        },
+        {
+          "name": "Aircraft - International Registration",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies for each registration of Security on the International Register\". Fee method not explicitly stated; only that \"The AUD amount will be quoted to you as part of the settlement documentation\"."
+        },
+        {
+          "name": "Aircraft - International Deregistration",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies each time we are required to remove a security registration from the International Register\". Fee method is NF because \"The AUD amount will be quoted to you before being charged\" but no calculation method or amount is explicitly stated."
+        },
+        {
+          "name": "Aircraft - CASA Transfer of Ownership",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies each time there is/will be a transfer of ownership with the Civil Aviation Safety Authority (CASA)\". No fee calculation method (fixed amount, rate, or range) is stated; only that it is \"payable by you on or before the date of transfer.\""
+        },
+        {
+          "name": "Aircraft - RAA Transfer of Ownership",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states it \"Applies for each registration of a marine vessel with the Australian Maritime Safety Authority\" and is \"payable by you on or before the settlement date\"."
+        },
+        {
+          "name": "Marine - Vessel Registration less than 24metres",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states it \"Applies for each registration of a marine vessel with the Australian Maritime Safety Authority\" and is \"payable by you on or before the settlement date\"."
+        }
+      ]
+    },
+    {
+      "product_id": "WestpacNovatedLease",
+      "product_name": "Novated Lease",
+      "extracted_fees": [
+        {
+          "name": "Loan Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Described as \"Charged to cover the costs of originating your Goods Loan, Hire Purchase or Lease\" and \"payable by you on or before the settlement date.\""
+        },
+        {
+          "name": "Asset Inspection Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Asset Inspection Fee\"."
+        },
+        {
+          "name": "Legal Fees for Complex Documentation",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"this fee\" when \"require External Lawyers to document some or all of your contract documentation\" and it is \"payable on or before the settlement date\"."
+        },
+        {
+          "name": "Early Termination",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Applicable when you terminate your Lease or Hire Purchase early.\""
+        },
+        {
+          "name": "Break Costs",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states: \"Break costs are not a fixed amount\" and are \"determined by a number of factors specific to your product\", but does not explicitly state a fee calculation method (fixed amount, rate-based, or min/max range)."
+        },
+        {
+          "name": "Overdue Rate",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as LATE_PAYMENT because it \"applies on overdue amount from the time it is due until it is paid.\" Fee method/amount not stated."
+        },
+        {
+          "name": "Personal Property Security Fees",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee is explicitly stated as \"Personal Property Security Fees\" and that they \"apply when search and registration fees are applicable\". No calculation method or amount is provided; \"for the current costs, please refer to the PPS Registrar?s website\"."
+        }
+      ]
+    },
+    {
+      "product_id": "WestpacFinanceLease",
+      "product_name": "Finance Lease",
+      "extracted_fees": [
+        {
+          "name": "Loan Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as UPFRONT because it is \"Charged to cover the costs of originating\" and is \"payable by you on or before the settlement date.\" Fee method/amount not stated."
+        },
+        {
+          "name": "Asset Inspection Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Asset Inspection Fee\"."
+        },
+        {
+          "name": "Legal Fees for Complex Documentation",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"External Lawyers\" and described as payable \"on or before the settlement date\"; amount/method not stated: \"we will advise you of this fee before proceeding.\""
+        },
+        {
+          "name": "Early Termination",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EXIT because it is \"Applicable when you terminate your Lease or Hire Purchase early.\" No fee name or amount/method is explicitly stated."
+        },
+        {
+          "name": "Break Costs",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states: \"Break costs are not a fixed amount\" and they \"are determined by a number of factors specific to your product.\""
+        },
+        {
+          "name": "Overdue Rate",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as LATE_PAYMENT because it \"applies on overdue amount from the time it is due until it is paid.\""
+        },
+        {
+          "name": "Personal Property Security Fees",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Personal Property Security Fees apply when search and registration fees are applicable.\" Also: \"Where charged individually, these will be itemised on your Details\" and \"for the current costs, please refer to the PPS Registrar?s website\"."
+        },
+        {
+          "name": "Aircraft - International Registration",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Stated as applying \"for each registration of Security on the International Register\" and that \"The AUD amount will be quoted to you as part of the settlement documentation\"."
+        },
+        {
+          "name": "Aircraft - International Deregistration",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies each time we are required to remove a security registration from the International Register\". Fee method is NF because \"The AUD amount will be quoted to you before being charged\" but no calculation method or amount is stated."
+        },
+        {
+          "name": "Aircraft - CASA Transfer of Ownership",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies each time there is/will be a transfer of ownership with the Civil Aviation Safety Authority (CASA)\" and is \"payable by you on or before the date of transfer\"; no amount or rate is stated."
+        },
+        {
+          "name": "Aircraft - RAA Transfer of Ownership",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies for each registration of a marine vessel with the Australian Maritime Safety Authority\" and is \"payable by you on or before the settlement date\"."
+        },
+        {
+          "name": "Marine - Vessel Registration less than 24metres",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because it \"Applies for each registration of a marine vessel with the Australian Maritime Safety Authority\" and is \"payable by you on or before the settlement date\"."
+        }
+      ]
+    },
+    {
+      "product_id": "TDBusTermDeposit",
+      "product_name": "Business Term Deposit",
+      "extracted_fees": [
+        {
+          "name": "Bank cheque",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Bank cheque\"."
+        },
+        {
+          "name": "Bank cheque Online",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"This includes a customised remittance plus postage and handling\"."
+        },
+        {
+          "name": "Refunding a Bank cheque no longer required - original presented",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT because Additional Info only states: \"Fee charged per cheque for Bank customers\" and does not specify an amount or calculation method."
+        },
+        {
+          "name": "Refunding / Replacing a Bank cheque - original lost, stolen or destroyed",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EVENT based on the fee being \"charged per cheque\". No fee amount or calculation method is stated beyond \"charged per cheque\"."
+        }
+      ]
+    },
+    {
+      "product_id": "TDTermDeposit",
+      "product_name": "Term Deposit",
+      "extracted_fees": [
+        {
+          "name": "Bank cheque",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee identified from Additional Info: \"Bank cheque\"."
+        },
+        {
+          "name": "Bank cheque Online",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Bank cheque Online\"."
+        },
+        {
+          "name": "Refunding a Bank cheque no longer required - original presented",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Only statement provided is: \"Refunding a Bank cheque no longer required - original presented\". No fee amount, rate, or method is explicitly stated."
+        },
+        {
+          "name": "Refunding / Replacing a Bank cheque - original lost, stolen or destroyed",
+          "feeType": "REPLACEMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as REPLACEMENT because Additional Info is about \"Refunding / Replacing a Bank cheque\". No fee amount or calculation method is stated."
+        }
+      ]
+    },
+    {
+      "product_id": "BusinessOverdraft",
+      "product_name": "Business Overdraft",
+      "extracted_fees": [
+        {
+          "name": "Monthly Line Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "BALANCE",
+            "rate": "0.012",
+            "accrualFrequency": "NF"
+          },
+          "explanation": "Fee name and basis from: \"Monthly Line Fee: 1.20% p.a. (of total limit)\" and timing from: \"charged at the beginning of the month.\""
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "600.00"
+          },
+          "explanation": "Fee is described as a \"Minimum charge\" with a \"Minimum charge of $600.00\"."
+        }
+      ]
+    },
+    {
+      "product_id": "TrBusOnePlus",
+      "product_name": "Business One - Plus",
+      "extracted_fees": [
+        {
+          "name": "Monthly Plan Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PERIODIC because Additional Info states: \"Monthly Plan Fee\". No fee calculation method or amount is stated."
+        },
+        {
+          "name": "Overseas Withdrawal Fee",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "NF"
+          },
+          "explanation": "Fee name and context are explicitly stated as \"Overseas Withdrawal fee\" and it applies to \"cash withdrawals\" and \"Overseas Withdrawal\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Overdrawn Fee\"."
+        },
+        {
+          "name": "Bank Cheque Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Bank Cheque Fee\". No amount or calculation method is provided."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Group Telephone Banking\"."
+        },
+        {
+          "name": "Narrated Credits",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Only condition provided: \"Applicable after free monthly transactions are exhausted.\" No fee name or amount/rate is stated."
+        },
+        {
+          "name": "Cheques Collected / Deposited",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Only condition provided: \"Applicable after free monthly transactions are exceeded.\" No fee name or amount/rate is stated."
+        },
+        {
+          "name": "Foreign Transaction Fee - non-AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - non-AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Stated as \"1% Westpac On-Charged Scheme Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - AU merchant",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - AU merchant",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as \"0.2% Westpac On-Charged Scheme Fee\" and applies to \"transaction amount\"."
+        },
+        {
+          "name": "Account Enquiries: ATM",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and context taken from Additional Info: \"Account Enquiries: ATM\"."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name appears as \"Staff-Assisted Withdrawal\"."
+        },
+        {
+          "name": "Account Enquiries: Online",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Account Enquiries: Online\". No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Staff-Assisted Deposit\"."
+        },
+        {
+          "name": "Cheques Written",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Cheques Written\". No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Withdrawals\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Self-Service (Electronic) Deposits\"."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Periodical Payments\"."
+        },
+        {
+          "name": "Pay Anyone",
+          "feeType": "PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Pay Anyone\"."
+        }
+      ]
+    },
+    {
+      "product_id": "FarmManagementDepositAccount",
+      "product_name": "Farm Management Deposit account",
+      "extracted_fees": [
+        {
+          "name": "Bank cheque",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states \"Bank cheque\" and does not specify any fee amount or how it is calculated."
+        },
+        {
+          "name": "Bank cheque Online",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"This includes a customised remittance plus postage and handling\"."
+        },
+        {
+          "name": "Refunding a Bank cheque no longer required - original presented",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Fee charged per cheque for Bank customers\"."
+        },
+        {
+          "name": "Refunding / Replacing a Bank cheque - original lost, stolen or destroyed",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "The fee is described only as \"Fee charged per cheque for Bank customers\" with no amount or rate stated."
+        }
+      ]
+    },
+    {
+      "product_id": "SavBusCashRes",
+      "product_name": "Business Cash Reserve Savings",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Additional Info states: \"$15.00 per occurrence\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "explanation": "Additional Info states: \"Otherwise, such withdrawal will incur $5.00 fee per withdrawal.\""
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "The fee item is explicitly stated as \"Self-Service (Electronic) Deposits\"."
+        },
+        {
+          "name": "Cheques Collected / Deposited",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as: \"Cheques collected or deposited\" with note \"Additional charge for the branch transaction applies\"; no amount or rate is stated."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "3.00"
+          },
+          "explanation": "The Additional Info states \"a $3.00 fee will be charged for each transaction\", indicating a per-transaction fixed fee amount of \"$3.00\"."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info states: \"Staff-Assisted Deposit\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Included because Additional Info states: \"Periodical Payments\"."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "Additional Info states \"Unlimited free self-service enquiries\", indicating a fee of \"free\" for \"self-service enquiries\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "\"Account enquiries are always free when you use Online Banking.\""
+        }
+      ]
+    },
+    {
+      "product_id": "MLOnlineInvestmentLoan",
+      "product_name": "Westpac  Online Investment Loan",
+      "extracted_fees": [
+        {
+          "name": "Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Establishment Fee\"."
+        },
+        {
+          "name": "Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Transaction Fee\"."
+        },
+        {
+          "name": "Application Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Application Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "WestpacAbsoluteInvestmentLoan",
+      "product_name": "Absolute Investment Loan",
+      "extracted_fees": [
+        {
+          "name": "Transaction Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        }
+      ]
+    },
+    {
+      "product_id": "WestpacMarginLending",
+      "product_name": "Margin Lending",
+      "extracted_fees": [
+        {
+          "name": "Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"No establishment fees for individuals or company applicants.\""
+        },
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": " Transaction costs",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"No transaction costs for this product.\""
+        }
+      ]
+    },
+    {
+      "product_id": "CCAltBlackVelocity",
+      "product_name": "Altitude Velocity Black",
+      "extracted_fees": [
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "295.00"
+          },
+          "explanation": "Amount \"$295\" is stated and it is \"charged annually\"."
+        },
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "75.00"
+          },
+          "explanation": "Stated as \"a separate $75 Velocity Rewards Fee, charged annually\" and \"applicable only when the Altitude Velocity rewards program is selected\"."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Classified as TRANSACTION because it is \"payable as a percentage of the Australian dollar value of any foreign transaction\" and \"applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution\". Method is rateBased because it is \"payable as a percentage\"; the percentage rate is not stated."
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and type taken from Additional Info: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee is triggered when \"the minimum monthly payment is not paid by the statement due date\" and is \"$15 each statement cycle\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Additional Info states \"$15.00 once per statement period\" and refers to \"No overlimit fee\"."
+        },
+        {
+          "name": "Annual rewards program fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PERIODIC because it \"Applies annually\". No fee name or amount/rate is explicitly stated in the Additional Info."
+        }
+      ]
+    },
+    {
+      "product_id": "CCAltBlackQantas",
+      "product_name": "Altitude Qantas Black",
+      "extracted_fees": [
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "295.00"
+          },
+          "explanation": "Fee amount is \"$295\" and it is \"charged annually\"."
+        },
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "75.00"
+          },
+          "explanation": "Fee name is \"$75 Qantas Rewards Fee\" and it is \"charged annually\"; it is \"applicable only when the Altitude Qantas rewards program is selected\"."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Classified as TRANSACTION because it is payable on \"any foreign transaction\" and \"Applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution\". Method is rateBased because it is \"Payable as a percentage of the Australian dollar value\"."
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and context are explicitly stated as: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee is \"$15 each statement cycle\" when \"the minimum monthly payment is not paid by the statement due date.\""
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Stated: \"$15.00 once per statement period\" and references \"overlimit fee\"."
+        },
+        {
+          "name": "Annual rewards program fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PERIODIC because it \"Applies annually\". No fee amount or calculation method is stated."
+        }
+      ]
+    },
+    {
+      "product_id": "CCLite",
+      "product_name": "Westpac Lite Card",
+      "extracted_fees": [
+        {
+          "name": "Monthly Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "9.00"
+          },
+          "explanation": "Fee is described as \"$9 monthly card fee\", indicating a periodic (\"monthly\") fixed amount (\"$9\") card fee."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee identified as \"overlimit fee\" with amount \"$15.00\" and frequency \"once per statement period\" (applies \"if your credit card account was opened before 4 June 2012\")."
+        },
+        {
+          "name": "Credit Card Surcharge",
+          "feeType": "PAYMENT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "The fee is described as a \"'surcharge' for credit card payments\" and \"Usually, these are a percentage fee of your purchase amount.\""
+        }
+      ]
+    },
+    {
+      "product_id": "CCAltPlatRewards",
+      "product_name": "Altitude Rewards Platinum",
+      "extracted_fees": [
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "175.00"
+          },
+          "explanation": "Additional Info states: \"$175 annual card fee\"."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee is described as \"Payable as a percentage of the Australian dollar value of any foreign transaction\" and it \"Applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution.\""
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and type taken from Additional Info: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Classified as LATE_PAYMENT because it applies when \"the minimum monthly payment is not paid by the statement due date\". Fee method is fixedAmount with amount \"$15\" and frequency described as \"each statement cycle\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Additional Info states \"$15.00 once per statement period\" and refers to \"overlimit fee\"."
+        },
+        {
+          "name": "Annual rewards program fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and periodic nature are explicitly stated as: \"Annual rewards program fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "CCAltBlackRewards",
+      "product_name": "Altitude Black Rewards World Mastercard",
+      "extracted_fees": [
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "295.00"
+          },
+          "explanation": "Additional Info states: \"$295 annual card fee\"."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee is described as \"Payable as a percentage of the Australian dollar value of any foreign transaction\" and it \"Applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution.\""
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and type taken from Additional Info: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Classified as LATE_PAYMENT because it applies when \"the minimum monthly payment is not paid by the statement due date\". Fixed amount is \"$15 each statement cycle\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Additional Info states: \"$15.00 once per statement period if your credit card account was opened before 4 June 2012\" and refers to \"No overlimit fee\"."
+        },
+        {
+          "name": "Annual rewards program fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PERIODIC because Additional Info says \"Annual\" in \"Annual rewards program fee\". No amount or calculation method is stated."
+        }
+      ]
+    },
+    {
+      "product_id": "CCLowRate",
+      "product_name": "Low Rate Card",
+      "extracted_fees": [
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "59.00"
+          },
+          "explanation": "Additional Info states: \"$59 annual card fee.\""
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Classified as TRANSACTION because it \"Applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution\". Method is rateBased because it is \"Payable as a percentage of the Australian dollar value of any foreign transaction\" (percentage stated but no rate given)."
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and type taken from Additional Info: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee is triggered when \"the minimum monthly payment is not paid by the statement due date\" and is \"$15 each statement cycle\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee identified as \"overlimit fee\". Amount and frequency stated as \"$15.00 once per statement period\" (applies \"if your credit card account was opened before 4 June 2012\")."
+        },
+        {
+          "name": "Non-Westpac Group ATM fee",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"ATM operator fee\" and context is \"using your card in a non-Westpac Group or Westpac Group partner ATM may result in a charge to you\"."
+        },
+        {
+          "name": "Credit Card Surcharge",
+          "feeType": "PAYMENT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Described as a \"surcharge\" for \"credit card payments\" and \"Usually, these are a percentage fee of your purchase amount.\""
+        },
+        {
+          "name": "Balance Transfer Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.03"
+          },
+          "explanation": "Stated: \"3% balance transfer fee applies\"."
+        }
+      ]
+    },
+    {
+      "product_id": "CCAltPlatQantas",
+      "product_name": "Altitude Qantas Platinum",
+      "extracted_fees": [
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "175.00"
+          },
+          "explanation": "Amount is stated as \"$175\" and it is \"charged annually\"."
+        },
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "75.00"
+          },
+          "explanation": "Fee is stated as \"a separate $75 Qantas Rewards Fee\" and it is \"charged annually\" (\"applicable only when the Altitude Qantas rewards program is selected\")."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee is described as \"Payable as a percentage of the Australian dollar value of any foreign transaction\" and it \"Applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution.\""
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states the fee name: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Classified as LATE_PAYMENT because it applies when \"the minimum monthly payment is not paid by the statement due date\". Fixed amount is \"$15 each statement cycle\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee identified as \"overlimit fee\" with amount \"$15.00\" and timing \"once per statement period\" (applies \"if your credit card account was opened before 4 June 2012\")."
+        },
+        {
+          "name": "Annual rewards program fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PERIODIC because Additional Info says \"Applies annually\". No fee name or amount/rate is explicitly stated."
+        }
+      ]
+    },
+    {
+      "product_id": "CCAltPlatVelocity",
+      "product_name": "Altitude Velocity Platinum",
+      "extracted_fees": [
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "175.00"
+          },
+          "explanation": "Amount \"$175\" is stated and it is \"charged annually\"."
+        },
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "75.00"
+          },
+          "explanation": "A separate \"$75 Velocity Rewards Fee\" is stated and it is \"charged annually\" and is \"applicable only when the Altitude Velocity rewards program is selected\"."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Classified as TRANSACTION because it is \"payable as a percentage of the Australian dollar value of any foreign transaction\" and \"applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution\". Method is rateBased because it is \"payable as a percentage\"; the percentage rate is not stated."
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and type taken from Additional Info: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee is triggered when \"the minimum monthly payment is not paid by the statement due date\" and is \"$15 each statement cycle\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Additional Info states \"$15.00 once per statement period\" and refers to \"No overlimit fee will be charged\"."
+        },
+        {
+          "name": "Annual rewards program fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PERIODIC because Additional Info says \"Applies annually\". No fee name or amount/rate is stated in the Additional Info."
+        }
+      ]
+    },
+    {
+      "product_id": "SecuredBusinessLoan",
+      "product_name": "Secured Business Loan",
+      "extracted_fees": [
+        {
+          "name": "Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Establishment Fee\"."
+        },
+        {
+          "name": "Monthly Line Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Monthly Line Fee\"."
+        },
+        {
+          "name": "Loan Service Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Loan Service Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "SavLife",
+      "product_name": "Westpac Life",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking (including Mobile Banking)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"withdrawals\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Telephone Banking withdrawal (self service)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"withdrawal\". No fee amount/rate is stated in \"Telephone Banking withdrawal (self service)\"."
+        },
+        {
+          "name": "Telephone Banking withdrawal (staff assisted)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info explicitly states: \"withdrawal\". No fee amount/rate is stated in: \"Telephone Banking withdrawal (staff assisted)\"."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info says \"assisted withdrawal\". No fee amount/rate is stated (\"Branch staff assisted withdrawal\")."
+        }
+      ]
+    },
+    {
+      "product_id": "SavComSolCashRes",
+      "product_name": "Community Solutions Cash Reserve",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Additional Info states: \"$15.00 per occurrence\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "explanation": "Applies to withdrawals: \"such withdrawal will incur $5.00 fee per withdrawal\" (\"Nil\" only for withdrawals \"to a Westpac Business account held in the same name(s)\")."
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info states \"Deposits\". No fee amount/rate/method is explicitly stated in \"Self-Service (Electronic) Deposits\"."
+        },
+        {
+          "name": "Cheques Written",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "explanation": "Classified as TRANSACTION because it says \"for each transaction\" and specifies \"a $5.00 fee will be incurred\"."
+        },
+        {
+          "name": "Cheques Collected / Deposited",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name from Additional Info: \"Cheques collected or deposited\". Classified as DEPOSIT because it refers to \"deposited\". Fee method/amount not stated; only \"Additional charge for the branch transaction applies\"."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "3.00"
+          },
+          "explanation": "Additional Info states: \"for each transaction a $3.00 fee will be incurred\"."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states \"Staff-Assisted Deposit\" and does not state any fee amount, rate, or range."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicitly stated fee information is the phrase \"Periodical Payments\"; no fee amount, rate, or range is provided."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states: \"Unlimited free self-service enquiries\" (no fee amount or method stated)."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states: \"Account enquiries are always free when you use Online Banking.\""
+        }
+      ]
+    },
+    {
+      "product_id": "TrChoice55",
+      "product_name": "Westpac 55+ and Retired",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The fee item is explicitly described as \"Online transfer withdrawals via Online Banking\"."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info says: \"Any withdrawal made at a Westpac/St.George/Bank of Melbourne/BankSA branded ATM\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Balance Inquiry",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee context is an enquiry: \"balance Inquiry\" at a branded ATM. No fee amount or rate is stated."
+        },
+        {
+          "name": "Point of Sale (POS) transactions",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "NF",
+          "explanation": "Only the phrase \"All transactions conducted at a POS terminal.\" is provided; no fee amount/rate or that a fee is charged is stated."
+        },
+        {
+          "name": "Telephone Banking (automated)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states \"transfer withdrawals\"."
+        },
+        {
+          "name": "Telephone Banking (staff assisted)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states \"transfer withdrawal\" and describes it as \"assisted by a staff member over the telephone\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Cheque Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee context is stated as \"Withdrawals or payments made by cheque\" and \"Excludes cashing of a cheque\"; no fee amount or rate is provided."
+        },
+        {
+          "name": "Direct Debit",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as TRANSACTION based on: \"A transfer of funds from your account\". No fee amount/rate is stated in: \"A transfer of funds from your account drawn under a Direct Debit request you gave another person or company.\""
+        },
+        {
+          "name": "PayTo payment",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PAYMENT because it describes \"A transfer of funds from your account\" under a \"Payment Agreement\" with a \"merchant or Payment Initiator\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info says: \"Includes any withdrawals conducted at a Westpac branch, including cashing of Westpac cheques.\" No fee amount/rate is stated."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Additional fees apply for Periodical Payments made by Bank Cheque\" (no amount/rate provided)."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Additional fees apply for ... International Periodical Payments\" (no amount/rate provided)."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Mentions \"Some overseas banks may also apply a surcharge to cash withdrawals from their ATMs\" and that \"This surcharge amount will be added to your withdrawal amount\"."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "States \"This fee is nil for cash withdrawals from Global ATM Alliance and Westpac Group partner ATMs.\""
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Stated as \"1% Westpac On-Charged Scheme Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as \"0.2% Westpac On-Charged Scheme Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Overdrawn Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "WestpacCashInvestmentAcc",
+      "product_name": "Cash Investment Account",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Telephone Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Automated telephone banking\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Direct Debit",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "The only provided text is: \"Direct Debits ? Westpac Share Trading.\" No fee amount, rate, or calculation method is stated."
+        },
+        {
+          "name": "Branch assisted deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info states: \"Branch assisted deposit\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Branch assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "explanation": "Fee amount is stated as \"$5.00 (From 01 December 2022, Nil)\"."
+        },
+        {
+          "name": "Self served deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Included because Additional Info states: \"Self served deposits\"."
+        },
+        {
+          "name": "Self served withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Self served withdrawals\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Pay Anyone",
+          "feeType": "PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Pay Anyone\"."
+        },
+        {
+          "name": "Overdrawn",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "9.00"
+          },
+          "explanation": "Named \"(Other Bank Charges)\". Fee is \"$9.00 per item\" and is \"applicable for each transaction\" that \"Overdraws your account\", \"Is a withdrawal against uncleared funds\", or \"Exceeds the available funds in the account at the time of the transaction\"."
+        }
+      ]
+    },
+    {
+      "product_id": "TrBusOne",
+      "product_name": "Business One ",
+      "extracted_fees": [
+        {
+          "name": "Monthly Plan Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and periodic nature taken from: \"Monthly Plan Fee\"."
+        },
+        {
+          "name": "Overseas Withdrawal Fee",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "NF"
+          },
+          "explanation": "The fee is explicitly named \"Overseas Withdrawal fee\" and relates to \"cash withdrawals\" and \"Overseas Withdrawal\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Overdrawn Fee\"."
+        },
+        {
+          "name": "Bank Cheque Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Bank Cheque Fee\"."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Group Telephone Banking\". No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Narrated Credits",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"Applicable after free monthly transactions are exhausted.\" No fee name or amount/rate is explicitly stated."
+        },
+        {
+          "name": "Cheques Collected / Deposited",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Applicable after free monthly transactions are exceeded.\""
+        },
+        {
+          "name": "Foreign Transaction Fee - non-AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - non-AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Stated as \"1% Westpac On-Charged Scheme Fee\" and applies to \"transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - AU merchant",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - AU merchant",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as \"0.2% Westpac On-Charged Scheme Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Account Enquiries: ATM",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee identified from \"Account Enquiries: ATM\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name from Additional Info: \"Staff-Assisted Withdrawal\"."
+        },
+        {
+          "name": "Account Enquiries: Online",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Account Enquiries: Online\"."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name appears in Additional Info as \"Staff-Assisted Deposit\"."
+        },
+        {
+          "name": "Cheques Written",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Cheques Written\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Withdrawals\". No fee method or amount/rate is stated in: \"Self-Service (Electronic) Withdrawals\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"Self-Service (Electronic) Deposits\" (no fee amount/rate/method stated)."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states \"Periodical Payments\" and does not explicitly state any fee amount, rate, or method."
+        },
+        {
+          "name": "Pay Anyone",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"Pay Anyone\" (no fee amount, rate, or method stated)."
+        }
+      ]
+    },
+    {
+      "product_id": "CCBusChoiceRewardsPlat",
+      "product_name": "BusinessChoice Rewards Platinum Mastercard",
+      "extracted_fees": [
+        {
+          "name": "Card Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Only information provided is: \"Per card.\" No fee amount or rate is stated."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Classified as TRANSACTION because it is \"payable as a percentage of the Australian dollar value of any foreign transaction\" and \"applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution.\" Fee method is rateBased because it is \"payable as a percentage\" (rate not stated)."
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and type taken from Additional Info: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Amount and frequency are stated as \"$15.00 once per statement period\" and it applies when payment is late: \"May be payable each statement cycle that the whole of the minimum monthly payment is not paid by the statement due date\"."
+        },
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Overseas ATM cash withdrawals (partner)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"ATM cash withdrawals\". No fee amount/rate is stated in: \"Overseas ATM cash withdrawals (partner)\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Named in Additional Info as \"Overlimit fee\". Amount and frequency stated as \"$15.00 once per statement period\". Trigger described as \"every time you exceed your credit limit during a statement cycle\" and \"whenever your account is over limit at the commencement of a statement cycle\"."
+        },
+        {
+          "name": "Data Feed Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "feeCap": "up to a maximum of $50 per facility per month",
+          "explanation": "Stated: \"charged a monthly fee of $5.00 per Card\" and \"up to a maximum of $50 per facility per month\"; timing: \"charged at the end of each statement cycle\"; applies when \"opting in for Data feeds\" / \"facility is enrolled in Business Credit Card Data Feeds\"."
+        },
+        {
+          "name": "Qantas Business Rewards program joining fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as UPFRONT because it is a \"joining fee\". No amount or calculation method is stated beyond \"joining fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "TrChoiceYouth",
+      "product_name": "Youth Bank Account and Debit Card",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info only states \"Online transfer withdrawals via Online Banking\" and does not state any fee amount, rate, or calculation method."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because it states: \"Any withdrawal made at a Westpac/St.George/Bank of Melbourne/BankSA branded ATM\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Balance Inquiry",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee context is an enquiry: \"Any balance Inquiry made at a Westpac/St.George/Bank of Melbourne/BankSA branded ATM\"; no fee amount or method is stated."
+        },
+        {
+          "name": "Point of Sale (POS) transactions",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicit statement is: \"All transactions conducted at a POS terminal.\" No fee amount, rate, or calculation method is provided."
+        },
+        {
+          "name": "Telephone Banking (automated)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The fee name is explicitly stated as \"Automated Telephone Banking transfer withdrawals\"."
+        },
+        {
+          "name": "Telephone Banking (staff assisted)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info explicitly says \"transfer withdrawal\" and describes it as \"assisted by a staff member over the telephone\"; no fee amount or rate is stated."
+        },
+        {
+          "name": "Cheque Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee context is explicitly described as \"Withdrawals or payments made by cheque\" and no fee amount/rate is provided in the Additional Info."
+        },
+        {
+          "name": "Direct Debit",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The text describes \"A transfer of funds from your account\" under a \"Direct Debit request\" but does not state any fee amount, rate, or range."
+        },
+        {
+          "name": "PayTo payment",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Only a payment description is provided: \"A transfer of funds from your account in accordance with a Payment Agreement\"; no fee name or fee method is stated."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info mentions \"withdrawals conducted at a Westpac branch\" and \"cashing of Westpac cheques\" but does not state any fee name or amount."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Additional fees apply for Periodical Payments made by Bank Cheque\". No fee method, amount, or rate is provided."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Additional fees apply for ... International Periodical Payments\". No fee method, amount, or rate is provided."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Mentions \"Some overseas banks may also apply a surcharge to cash withdrawals from their ATMs\" and that \"This surcharge amount will be added to your withdrawal amount\" but does not state a specific amount or rate."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "States \"This fee is nil for cash withdrawals from Global ATM Alliance and Westpac Group partner ATMs.\""
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Fee is explicitly stated as \"2% Westpac Processing Fee\" and is \"of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Fee is explicitly stated as \"1% Westpac On-Charged Scheme Fee\" and is \"of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as part of the total: \"comprising of 2% Westpac Processing Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as part of the total: \"comprising of ... 0.2% Westpac On-Charged Scheme Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Overdrawn Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "ProjectTrustAccount",
+      "product_name": "Project Trust Account",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Staff-Assisted Withdrawal\"."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Staff-Assisted Deposit\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and context taken from Additional Info: \"Self-Service (Electronic) Withdrawals\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info explicitly says \"Deposits\". No fee amount/rate/method is stated beyond \"Self-Service (Electronic) Deposits\"."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Periodical Payments\"."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Group Telephone Banking\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "The Additional Info says \"Account enquiries are always free when you use Online Banking.\""
+        }
+      ]
+    },
+    {
+      "product_id": "RetentionTrustAccount",
+      "product_name": "Retention Trust Account",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Staff-Assisted Withdrawal\"."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info states: \"Staff-Assisted Deposit\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states \"Withdrawals\". No fee amount/rate/method is stated in \"Self-Service (Electronic) Withdrawals\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info explicitly states: \"Self-Service (Electronic) Deposits\"."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Periodical Payments\"."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states \"Group Telephone Banking\" and does not state any fee or amount."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "Additional Info states: \"Account enquiries are always free when you use Online Banking.\""
+        }
+      ]
+    },
+    {
+      "product_id": "StatutoryTrustAccount",
+      "product_name": "Statutory Trust account",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Staff-Assisted Withdrawal\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info states: \"Staff-Assisted Deposit\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Withdrawals\". No fee amount/rate/method is stated beyond the withdrawal description: \"Self-Service (Electronic) Withdrawals\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info states: \"Deposits\". No fee amount/rate/method is stated beyond the deposit description: \"Self-Service (Electronic) Deposits\"."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Periodical Payments\"."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Group Telephone Banking\". No fee amount, rate, or method is stated."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "\"Account enquiries are always free when you use Online Banking.\""
+        },
+        {
+          "name": "Cheques Collected / Deposited",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Cheques Collected / Deposited\"."
+        },
+        {
+          "name": "Cheques Written",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicitly stated fee name is \"Cheques Written\"; no amount, rate, or range is provided."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee amount and method are stated as: \"$15.00 per occurrence\"."
+        }
+      ]
+    },
+    {
+      "product_id": "BankBillBusinessLoan",
+      "product_name": "Bank Bill Business Loan",
+      "extracted_fees": [
+        {
+          "name": "Line Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "BALANCE",
+            "rate": "NF",
+            "accrualFrequency": "NF"
+          },
+          "explanation": "Classified as PERIODIC because it is \"charged monthly in advance\". Method is rateBased because it is a \"Negotiable % p.a.\"; the actual rate is not stated (\"Negotiable\"), and it \"depends on the facility limit\"."
+        },
+        {
+          "name": "Loan Service Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as PERIODIC because Additional Info says \"Accrues monthly, charged quarterly\"; no fee amount or rate is stated."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info provides a fee description: \"0.6% of the facility limit with a minimum of $600\" but does not explicitly name the fee or state when it applies."
+        },
+        {
+          "name": "Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EXIT because it is \"Payable when we agree to discharge a security linked to the facility\" and is \"Payable per LTO security\"; no amount or calculation method is stated."
+        },
+        {
+          "name": "Break Cost fee (Prepayment Fee)",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"Only applicable to FIXED RATE LOANS. Calculated at the time of prepayment.\" No fee name, fee type, or fee calculation method is explicitly stated."
+        }
+      ]
+    },
+    {
+      "product_id": "TrChoiceConcession",
+      "product_name": "Westpac Choice for concession holders",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The only information provided is: \"Online transfer withdrawals via Online Banking\". No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because it states: \"Any withdrawal made at a ... branded ATM\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Westpac Group Branded ATM - Balance Inquiry",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as ENQUIRY because it is a \"balance Inquiry\". No fee amount or calculation method is stated."
+        },
+        {
+          "name": "Point of Sale (POS) transactions",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicit information is: \"All transactions conducted at a POS terminal.\" No fee amount, rate, or calculation method is stated."
+        },
+        {
+          "name": "Telephone Banking (automated)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"transfer withdrawals\". No fee amount/rate is stated."
+        },
+        {
+          "name": "Telephone Banking (staff assisted)",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info says \"transfer withdrawal\". No fee amount/rate is stated in: \"A Telephone Banking transfer withdrawal assisted by a staff member over the telephone\"."
+        },
+        {
+          "name": "Cheque Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee context is explicitly stated as: \"Withdrawals or payments made by cheque.\" No fee amount or rate is stated."
+        },
+        {
+          "name": "Direct Debit",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The text describes a transaction: \"A transfer of funds from your account drawn under a Direct Debit request\" but does not explicitly state any fee name or fee amount/rate."
+        },
+        {
+          "name": "PayTo payment",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info describes \"A transfer of funds from your account\" under a \"Payment Agreement\" with a \"merchant or Payment Initiator\", but does not state any fee amount or rate."
+        },
+        {
+          "name": "Branch staff assisted withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info says: \"Includes any withdrawals conducted at a Westpac branch, including cashing of Westpac cheques.\" No fee amount/rate is stated."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Additional fees apply for Periodical Payments made by Bank Cheque\". No amount/rate is provided."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Stated: \"Additional fees apply for ... International Periodical Payments\". No amount/rate is provided."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Mentions \"Some overseas banks may also apply a surcharge to cash withdrawals from their ATMs\" and that \"This surcharge amount will be added to your withdrawal amount\" but does not state a specific amount or rate."
+        },
+        {
+          "name": "Overseas Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "States \"This fee is nil for cash withdrawals from Global ATM Alliance and Westpac Group partner ATMs.\""
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Fee is described as \"2% Westpac Processing Fee\" and is part of \"3% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Merchant Outside Australia)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Fee is described as \"1% Westpac On-Charged Scheme Fee\" and is part of \"3% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee (Australian merchant)",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as \"0.2% Westpac On-Charged Scheme Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Overdrawn Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "CCLowFee",
+      "product_name": "Low Fee Card",
+      "extracted_fees": [
+        {
+          "name": "Annual Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and periodic nature taken from Additional Info: \"Annual Card Fee\"."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee is \"Payable as a percentage of the Australian dollar value of any foreign transaction\" and \"Applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution.\""
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and type taken from Additional Info: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Classified as LATE_PAYMENT because it applies when \"the minimum monthly payment is not paid by the statement due date\". Fee method is fixedAmount because it states \"$15 each statement cycle\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Additional Info states \"$15.00 once per statement period\" and refers to \"No overlimit fee\"."
+        },
+        {
+          "name": "Non-Westpac Group ATM fee",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Mentioned as \"Avoid paying an ATM operator fee\" and that using the card in a \"non-Westpac Group or Westpac Group partner ATM may result in a charge to you\"."
+        },
+        {
+          "name": "Credit Card Surcharge",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee described as a \"'surcharge' for credit card payments\" and \"Usually, these are a percentage fee of your purchase amount.\""
+        }
+      ]
+    },
+    {
+      "product_id": "InsurancePremiumFinance",
+      "product_name": "Insurance Premium Finance",
+      "extracted_fees": [
+        {
+          "name": "Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Establishment Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "CCBusLowRate",
+      "product_name": "BusinessChoice Everyday Mastercard",
+      "extracted_fees": [
+        {
+          "name": "Card Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee referenced as \"annual card fee\" and it may be \"waived\" if you \"Spend $15,000 or more on a specific card in a year\"; described as \"Per card\" and applies \"in the subsequent year\"."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee is described as \"Payable as a percentage of the Australian dollar value of any foreign transaction\" and it \"Applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution.\""
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and context are explicitly stated as: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee identified as \"Missed Payment fee\" and described as payable when \"the whole of the minimum monthly payment is not paid by the statement due date\". Amount and frequency stated as \"$15.00 once per statement period\"."
+        },
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Overseas ATM cash withdrawals (partner)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"ATM cash withdrawals\". No fee amount/rate is stated in: \"Overseas ATM cash withdrawals (partner)\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee identified as \"Overlimit fee\". Amount and frequency stated as \"$15.00 once per statement period\". Trigger described as \"every time you exceed your credit limit during a statement cycle\" and \"whenever your account is over limit at the commencement of a statement cycle\"."
+        },
+        {
+          "name": "Data Feed Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "feeCap": "up to a maximum of $50 per facility per month",
+          "explanation": "Classified as PERIODIC because it is a \"monthly fee\". Fixed amount \"$5.00 per Card\". Fee cap from \"up to a maximum of $50 per facility per month\". Timing from \"charged at the end of each statement cycle\"."
+        }
+      ]
+    },
+    {
+      "product_id": "CCAltBusGold",
+      "product_name": "Altitude Business Gold Mastercard",
+      "extracted_fees": [
+        {
+          "name": "Card Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Only information provided is: \"Per account.\" No fee name, type, or amount is stated."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Classified as TRANSACTION because it is for \"any foreign transaction\". Method is rateBased because it is \"Payable as a percentage of the Australian dollar value\"; the percentage rate is not stated."
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee name appears as \"Missed Payment fee\". Amount and frequency stated as \"$15.00 once per statement period\" and it \"May be payable each statement cycle that the whole of the minimum monthly payment is not paid by the statement due date\"."
+        },
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Overseas ATM cash withdrawals (partner)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Overseas ATM cash withdrawals (partner)\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee name and amount are stated as \"Overlimit fee\" and \"$15.00 once per statement period\". Applicability/trigger is described by: \"May be debited from your credit card account every time you exceed your credit limit during a statement cycle\" and \"may also be charged whenever your account is over limit at the commencement of a statement cycle\"."
+        },
+        {
+          "name": "Data Feed Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "feeCap": "up to a maximum of $50 per facility per month",
+          "explanation": "Stated: \"charged a monthly fee of $5.00 per Card\" and \"up to a maximum of $50 per facility per month\"; timing: \"charged at the end of each statement cycle\"; condition: \"Customers opting in for Data feeds\" and \"applies when the facility is enrolled in Business Credit Card Data Feeds.\""
+        }
+      ]
+    },
+    {
+      "product_id": "CCAltBusPlat",
+      "product_name": "Altitude Business Platinum Mastercard",
+      "extracted_fees": [
+        {
+          "name": "Card Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Only explicit text provided is \"Per account.\"; no fee amount or calculation method is stated."
+        },
+        {
+          "name": "Foreign Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee is described as \"Payable as a percentage of the Australian dollar value of any foreign transaction\" and it \"Applies for transactions in a foreign currency, or in Australian dollars but processed by an overseas merchant or financial institution.\""
+        },
+        {
+          "name": "Cash Advance Fee",
+          "feeType": "CASH_ADVANCE",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and type taken from Additional Info: \"Cash Advance Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "Fee identified as \"Missed Payment fee\" and described as payable when \"the whole of the minimum monthly payment is not paid by the statement due date\". Amount and frequency stated as \"$15.00 once per statement period\"."
+        },
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Overseas ATM cash withdrawals (partner)",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Overseas ATM cash withdrawals (partner)\" which indicates a fee related to \"ATM cash withdrawals\"."
+        },
+        {
+          "name": "Overlimit Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "15.00"
+          },
+          "explanation": "States \"$15.00 once per statement period\" and refers to \"No Overlimit fee\"; charged when you \"exceed your credit limit\" and when \"your account is over limit\"."
+        },
+        {
+          "name": "Data Feed Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "feeCap": "up to a maximum of $50 per facility per month",
+          "explanation": "Stated: \"charged a monthly fee of $5.00 per Card\" and \"(up to a maximum of $50 per facility per month)\"; applies when \"enrolled in Business Credit Card Data Feeds\" and is \"charged at the end of each statement cycle.\""
+        }
+      ]
+    },
+    {
+      "product_id": "TrComSolOne",
+      "product_name": "Community Solutions One",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Overseas Withdrawal Fee",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "The Additional Info states: \"Overseas Withdrawal fee\" and \"Nil for cash withdrawals from Global ATM Alliance and Westpac Group partner ATMs\"."
+        },
+        {
+          "name": "Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Overdrawn Fee\"."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"Group Telephone Banking\" (no fee amount, rate, or method stated)."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Cheques Collected / Deposited",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Only condition provided: \"Applicable after free monthly transactions are exceeded.\" No fee name or amount/rate is stated."
+        },
+        {
+          "name": "Foreign Transaction Fee - non-AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - non-AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Stated as \"1% Westpac On-Charged Scheme Fee\" and applies to \"the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and it is part of \"2.2% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Foreign Transaction Fee - AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as \"0.2% Westpac On-Charged Scheme Fee\" and it is part of \"2.2% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and context taken from Additional Info: \"Staff-Assisted Withdrawal\"."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and context taken from Additional Info: \"Staff-Assisted Deposit\"."
+        },
+        {
+          "name": "Cheques Written",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name taken from Additional Info: \"Cheques Written\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as WITHDRAWAL because Additional Info states: \"Withdrawals\". No fee amount/rate/method is stated beyond the withdrawal description: \"Self-Service (Electronic) Withdrawals\"."
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info explicitly states \"Deposits\". No fee amount/rate/method is stated beyond the label \"Self-Service (Electronic) Deposits\"."
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicitly stated fee name/description is \"Periodical Payments\"; no amount, rate, or range is provided."
+        }
+      ]
+    },
+    {
+      "product_id": "TrBusPremiumCashReserve",
+      "product_name": "Business Premium Cash Reserve",
+      "extracted_fees": [
+        {
+          "name": "Account Keeping Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Account Keeping Fee\"."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as ENQUIRY because it states \"self-service enquiries\". No fee method/amount is stated beyond \"free\"."
+        },
+        {
+          "name": "Cheques Collected / Deposited",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee mentioned as \"Cheques collected or deposited\"; no amount or calculation method is stated."
+        },
+        {
+          "name": "Cheques Collected / Deposited",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Additional fee indicated by \"Additional charge for the branch transaction applies\"; no amount or calculation method is stated."
+        },
+        {
+          "name": "Self-Service (Electronic) Withdrawals",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "explanation": "Fee applies to a \"withdrawal\" and \"will incur $5.00 fee per withdrawal\" (\"Nil\" applies only for withdrawals \"to a Westpac Business account held in the same name(s)\")."
+        },
+        {
+          "name": "Self-Service (Electronic) Deposits",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name and context are explicitly stated as: \"Self-service (electronic) withdrawals - transfers between other Westpac business accounts by Business Online Banking or automated Group Telephone Banking\". No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Staff-Assisted Withdrawal",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "5.00"
+          },
+          "explanation": "Classified as TRANSACTION because it says \"for each transaction\" and \"a $5.00 fee will be incurred.\" Fee method is fixedAmount with amount \"$5.00\"."
+        },
+        {
+          "name": "Staff-Assisted Deposit",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as DEPOSIT because Additional Info states: \"Staff-Assisted Deposit\". No fee amount or rate is stated."
+        },
+        {
+          "name": "Online Banking",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info states: \"Account enquiries are always free when you use Online Banking.\""
+        },
+        {
+          "name": "Periodical Payments",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"Periodical Payments\" and does not specify any fee amount, rate, or calculation method."
+        }
+      ]
+    },
+    {
+      "product_id": "TrBusOneNegotiatorPlan",
+      "product_name": "Business One - Negotiator Plan ",
+      "extracted_fees": [
+        {
+          "name": "Monthly Plan Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Group Telephone Banking",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "The only fee-related text provided is \"Group Telephone Banking\"; no fee amount, rate, or method is stated."
+        },
+        {
+          "name": "Westpac Foreign Transaction Fee - non-AU merchant",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and applies to the \"transaction amount\"."
+        },
+        {
+          "name": "Westpac Foreign Transaction Fee - non-AU merchant",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.01"
+          },
+          "explanation": "Stated as \"1% Westpac On-Charged Scheme Fee\" and applies to the \"transaction amount\"."
+        },
+        {
+          "name": "Westpac Foreign Transaction Fee - AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.02"
+          },
+          "explanation": "Stated as \"2% Westpac Processing Fee\" and it is part of \"2.2% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Westpac Foreign Transaction Fee - AU merchant",
+          "feeType": "PURCHASE",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "0.002"
+          },
+          "explanation": "Stated as \"0.2% Westpac On-Charged Scheme Fee\" and it is part of \"2.2% of the $AUD transaction amount\"."
+        },
+        {
+          "name": "Overseas Withdrawal Fee",
+          "feeType": "WITHDRAWAL",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "0.00"
+          },
+          "explanation": "Fee is described as \"Nil for cash withdrawals from ATMs belonging to institutions in the Global ATM Alliance.\""
+        },
+        {
+          "name": "Account Enquiries: Online",
+          "feeType": "ENQUIRY",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Account Enquiries: Online\"."
+        },
+        {
+          "name": "Pay Anyone",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info only states: \"Applicable for transfers to  another Westpac branded account or to any other account\" and does not explicitly state a fee name or amount/rate."
+        }
+      ]
+    },
+    {
+      "product_id": "TDForeignCurrencyTermDeposit",
+      "product_name": "Foreign Currency Term Deposit",
+      "extracted_fees": [
+        {
+          "name": "Monthly Service Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"No Monthly Service Fees\"."
+        },
+        {
+          "name": "Transaction Fee",
+          "feeType": "TRANSACTION",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"No Transaction Fees\"."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_products": 66,
+    "products_with_fees": 64,
+    "total_fees_processed": 566,
+    "total_fees_with_additional_info": 316,
+    "total_fees_using_name_only": 250,
+    "duplicate_fees_skipped_within_product": 1
+  }
+}

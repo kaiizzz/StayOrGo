@@ -1,0 +1,10 @@
+{
+  "bank": "Alex.Bank",
+  "products": [],
+  "summary": {
+    "total_products": 6,
+    "products_with_fees": 6,
+    "total_fees_processed": 10,
+    "total_fees_with_additional_info": 0
+  }
+}

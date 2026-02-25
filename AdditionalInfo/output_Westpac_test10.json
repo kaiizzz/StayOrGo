@@ -1,0 +1,194 @@
+{
+  "bank": "Westpac",
+  "products": [
+    {
+      "product_id": "PLUnsecured",
+      "product_name": "Unsecured Personal Loan",
+      "extracted_fees": [
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Account Fee\"."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Prepayment Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Described as applying when you \"pay it out in less than 2 years\" and being waived if you \"pay out your personal loan by refinancing to another Westpac personal loan\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Bank Cheque Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "PLCar",
+      "product_name": "Car Loan",
+      "extracted_fees": [
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Loan Account Fee\"."
+        },
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Prepayment Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Classified as EXIT because it \"Applies if you choose a term greater than 2 years and pay it out in less than 2 years\" and references paying out the loan: \"pay it out\" / \"pay out your personal loan\". Fee method/amount not stated."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Bank Cheque Fee\"."
+        }
+      ]
+    },
+    {
+      "product_id": "HLVariableFlexiOwnerOccupied",
+      "product_name": "Flexi First : Our lowest online variable home loan rate (Owner Occupied)",
+      "extracted_fees": [
+        {
+          "name": "Lending Establishment Fee",
+          "feeType": "UPFRONT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name in Additional Info is \"Lending Establishment Fee\"."
+        },
+        {
+          "name": "Bank Cheque Issuance Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "fixedAmount",
+          "fixedAmount": {
+            "amount": "10.00"
+          },
+          "explanation": "Fee amount is stated as \"$10 per cheque\" and condition is stated as \"(1st cheque is free)\"."
+        },
+        {
+          "name": "Loan Account Fee",
+          "feeType": "PERIODIC",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as: \"Loan Account Fee\"."
+        },
+        {
+          "name": "Missed Payment Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Missed Payment Fee\"."
+        },
+        {
+          "name": "Document Processing Fee",
+          "feeType": "EVENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name is explicitly stated as \"Document Processing Fee\"."
+        },
+        {
+          "name": "Default Notice Fee",
+          "feeType": "LATE_PAYMENT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Default Notice Fee\"."
+        },
+        {
+          "name": "Account Overdrawn Fee",
+          "feeType": "DISHONOR",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Account Overdrawn Fee\"."
+        },
+        {
+          "name": "Loan Discharge Fee",
+          "feeType": "EXIT",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as \"Loan Discharge Fee\"."
+        },
+        {
+          "name": "Lenders Mortgage Insurance Premium",
+          "feeType": "DEPOSIT",
+          "feeMethodUType": "rateBased",
+          "rateBased": {
+            "rateType": "TRANSACTION",
+            "rate": "NF"
+          },
+          "explanation": "Fee identified as \"Lenders Mortgage Insurance\". Method stated: \"calculated as a percentage of the loan amount\" and \"The percentage applied will vary depending on a number of factors\". Amount/rate not specified. Also stated: \"The cost of Lenders Mortgage Insurance premium is passed on to you.\""
+        },
+        {
+          "name": "Property Valuer Fee",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Fee name explicitly stated as: \"Property Valuer Fee\"."
+        },
+        {
+          "name": "Extra repayments",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "The Additional Info only states: \"Extra repayments (up to $30k on fixed loans)\" and does not state any fee or charge amount, rate, or range."
+        },
+        {
+          "name": "Redraw ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Repayment holidays or Reduced Repayments ",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Model returned no extracted fees; recorded fee name only."
+        },
+        {
+          "name": "Construction loan option",
+          "feeType": "OTHER",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"property valuer fees may apply\". No amount, rate, or range is provided."
+        },
+        {
+          "name": "Portability option",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "The only explicit information provided is: \"Portability option (keeping your loan but changing the property securing the loan)\". No fee amount, rate, or range is stated."
+        },
+        {
+          "name": "Loan switching",
+          "feeType": "VARIATION",
+          "feeMethodUType": "NF",
+          "explanation": "Additional Info states: \"Break costs may apply to a fixed rate loan\" in the context of \"Loan switching (changing loan or repayment type)\"."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_products": 3,
+    "products_with_fees": 3,
+    "total_fees_processed": 26,
+    "total_fees_with_additional_info": 10,
+    "total_fees_using_name_only": 16,
+    "duplicate_fees_skipped_within_product": 0
+  }
+}
